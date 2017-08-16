@@ -1,0 +1,239 @@
+@charset 'UTF-8';
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+	}
+body{
+	margin: 100%;
+}
+body,ul,h1,h2,h3,p,img{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+h1,h2,h3,p,a{
+	font-size: 12px;
+	font-family: 'Book Antiqua';
+	font-weight: normal;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+#header,#content{
+	width: 1100px;
+	margin: 0 auto;
+}
+#header h1{
+	width: 180px;
+	height: 54px;
+	background: url('../images/logo.fw.png');
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: normal;
+	margin-top: 40px;
+}
+#header ul{
+	height: 110px;
+}
+#header li{
+	float: left;
+}
+#header li a{
+	line-height: 110px;
+	margin-left: 50px;
+	color: #3b3b3b;
+}
+#lb{
+	width: 100%;
+	margin-bottom: 51px;
+}
+#lb a{
+	display: block;
+}
+#lb .lb-01{
+	width: 100%;
+	height: 574px;
+	background: url('../images/lb-01.fw.png') no-repeat center;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: normal;
+}
+#lb .lb-02{
+	width: 156px;
+	height: 79px;
+	background: url('../images/lb-02.fw.png') no-repeat center;
+	color: #fff;
+	line-height: 72px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -5px;
+}
+#con-gw .gw01{
+	margin-bottom: 60px;
+}
+#con-gw .gw-0,#con-gw .gw-1{
+	float: left;
+}
+#con-gw .gw-1{
+	width: 100px;
+	height: 94px;
+}
+#con-gw .gw-0{
+	width: 500px;
+	height: 94px;
+	background: url('../images/con-gw-02.fw.png') repeat-x center;
+}
+#con-gw .gw-01,#con-gw .gw-02{
+	background: #fff;
+}
+#con-gw .gw-01{
+	float: left;
+	padding: 30px 0 0 0;
+}
+#con-gw .gw-01 a{
+	color: #3b3b3b;
+}
+#con-gw .gw-01 span{
+	color: #b7b7b7;
+	font-style: italic;
+	font-size: 10px;
+}
+#con-gw .gw-02{
+	width: 70px;
+	float: right;
+	color: #333;
+	text-align: right;
+	padding: 38px 0 0 0;
+}
+#con-gw .gw02{
+	width: 131px;
+	height: 32px;
+	border: 1px solid #d7d5d5;
+	margin: 0 auto;
+	margin-bottom: 121px;
+}
+#con-gw .gw02 h3{
+	float: left;
+	width: 97px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	color: #b7b7b7;
+}
+#con-fea h2{
+	width: 170px;
+	line-height: 173px;
+}
+#con-fea .fea-h2 a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #3b3b3b;
+}
+#con-fea .fea-x{
+	width: 200px;
+	height: 173px;
+	background: url('../images/con-gw-02.fw.png') repeat-x center;
+}
+#con-fea .fea-1{
+	float: left;
+	width: 230px;
+	height: 260px;
+}
+#con-fea .fea-01{
+	margin-top: 20px;
+}
+#con-fea p,#con-fea .fea01 a{
+	color: #646473;
+}
+#con-fea .fea-2{
+	float: left;
+	width: 60px;
+	height: 260px;
+}
+#con-gall{
+	margin-bottom: 200px;
+}
+#con-gall h2{
+	width: 140px;
+	padding: 200px 0 130px 0;
+}
+#con-gall .gall-h2 a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #3b3b3b;
+}
+#con-gall .gall-x{
+	width: 200px;
+	height: 210px;
+	background: url('../images/con-gw-02.fw.png') repeat-x bottom;
+}
+#con-gall .gall-02{
+	width: 287px;
+	height: 382px;
+}
+#footer{
+	width: 100%;
+	height: 317px;
+	background: #3b3b3b;
+}
+#footer .foot{
+	width: 1100px;
+	margin: 0 auto;
+}
+#footer p,#footer a{
+	color: #fff;
+}
+#footer .foot-ul{
+	width: 870px;
+	height: 150px;
+	margin-top: 91px;
+}
+#footer ul{
+	width: 290px;
+}
+#footer .foot-1 a,#footer .foot-2 a{
+	line-height: 30px;
+}
+#footer .foot-02{
+	font-family: '方正兰亭超细黑简体';
+}
+#footer .foot-03{
+	font-weight: bold;
+}
+#footer .foot-3{
+	margin-top: -2px;
+}
+#footer .foot-3 a{
+	font-weight: bold;
+	line-height: 36px;
+}
+#footer .foot-4{
+	width: 230px;
+	height: 180px;
+	margin-top: 84px;
+}
+#footer h3{
+	width: 180px;
+	height: 54px;
+	background: url('../images/footer-01.fw.png') no-repeat;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: normal;
+}
+#footer p{
+	line-height: 32px;
+	font-family: '方正兰亭超细黑简体';
+}
+#footer span{
+	font-family: 'Book Antiqua';
+}
